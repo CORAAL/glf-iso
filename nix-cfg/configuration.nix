@@ -3,12 +3,6 @@
   # NE TOUCHEZ A RIEN
   # !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
-  imports = [
-    ./hardware-configuration.nix
-    ./glf
-    ./glf/nvidia.nix
-  ];
-
   users.users.test = {
     isNormalUser = true;
     description = "test";
